@@ -3,10 +3,9 @@
 
 int main()
 {
-    printf("Log2: %d\n", CalculateLog2(32));
-    printf("Log2: %d\n", CalculateLog2(31));
-    printf("Log2: %d\n", CalculateLog2(33));
-    printf("Log2: %d\n", CalculateLog2(-1));
-    printf("Log2: %d\n", CalculateLog2(1));
+    int log_input;
+    printf("Enter the number:");
+    scanf("%d", &log_input);
+    printf("Log2(%d): %d\n", log_input, CalculateLog2(log_input));
     return 0;
 }

@@ -16,7 +16,7 @@ int CalculateLog2(int n) {
         int rem = n % 2;
         n = n / 2;
 
-        if (rem == 0 || n == 1 ) {
+        if (rem == 0) {
             pow++;
         } else {
             return NOT_POWER_OF_2;
